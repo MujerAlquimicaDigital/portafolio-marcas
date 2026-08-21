@@ -141,6 +141,29 @@
     .marca-zoom-hint{ display:none; }
   }
 
+  .marca-aplicaciones{
+    max-width: 745px;
+    margin: 0.9rem auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.6rem;
+  }
+
+  .marca-aplicaciones a{
+    display: block;
+    line-height: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid rgba(212,184,126,0.18);
+  }
+
+  .marca-aplicaciones img{
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
   .marca-caption{
     text-align:center;
   }
@@ -357,6 +380,19 @@
         </a>
       </div>
       <span class="marca-zoom-hint">Toca la imagen para ampliar</span>
+
+      <div class="marca-aplicaciones">
+        <a href="imagenes/tarjeta-Kronos-tiro.png" target="_blank" rel="noopener">
+          <img src="imagenes/tarjeta-Kronos-tiro.png" alt="Tarjeta Kronos — frente">
+        </a>
+        <a href="imagenes/tarjeta-kronos-retiro.png" target="_blank" rel="noopener">
+          <img src="imagenes/tarjeta-kronos-retiro.png" alt="Tarjeta Kronos — reverso, elemento fuego">
+        </a>
+        <a href="imagenes/empaque-Kronos.png" target="_blank" rel="noopener">
+          <img src="imagenes/empaque-Kronos.png" alt="Empaque Kronos">
+        </a>
+      </div>
+
       <div class="marca-caption">
         <span class="num">03</span>
         <h3>Kronos</h3>
